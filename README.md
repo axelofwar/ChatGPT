@@ -4,14 +4,14 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
 ## Setup - Axelofwar
 1. Install OpenAI
-```pip install openai```
+- ```pip install openai```
 2. Add OPENAI_API_KEY to environment
-### IF USING REPLIT
-- Create new secret called 'OPENAI_API_KEY' and store your openai key in it
-### IF USING VS CODE OR OTHER IDE/TERMINAL
-- Edit .env file or copy .env.example into a new .env file. Fill ```OPENAI_API_KEY = "YOUR API KEY"```
+- IF USING REPLIT: 
+>Create new secret called 'OPENAI_API_KEY' and store your openai key in it
+- IF USING VS CODE OR OTHER IDE/TERMINAL: 
+>Edit .env file or copy .env.example into a new .env file. Fill ```OPENAI_API_KEY = "YOUR API KEY"```
 
-## RUN
+#### RUN
 ```python3 app.py```
 
 ## Setup - OpenAI
